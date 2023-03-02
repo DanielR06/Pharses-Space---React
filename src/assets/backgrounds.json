@@ -1,0 +1,14 @@
+[
+    {
+        "background":"./assets/backgrounds/background1.jpg"
+    },
+    {
+        "background":"./assets/backgrounds/background2.jpg"
+    },
+    {
+        "background":"./assets/backgrounds/background3.jpg"
+    },
+    {
+        "background":"./assets/backgrounds/background4.jpg"
+    }
+]

@@ -1,0 +1,29 @@
+.card__info{
+    /* Auto layout */
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 30px;
+    gap: 10px;
+
+    /* Desing */
+    width: auto;
+    height: auto;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.card__info > p{
+    font-size:30px;
+    color: black;
+    margin:0;
+    width: 450px;
+    height: auto;
+}
