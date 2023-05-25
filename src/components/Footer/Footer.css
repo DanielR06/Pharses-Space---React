@@ -1,0 +1,18 @@
+.Footer {
+    max-width:500px;
+    border-radius: 60% 60% 0 0;
+    overflow:hidden;
+    margin: 0  auto;
+  }
+  
+  .content {
+    color:black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  
+  .planet {
+    width: 100%;
+  }

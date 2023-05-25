@@ -3,7 +3,7 @@ import './App.css'
 import Card from './components/Card/Card'
 import Button from './components/Button/Button'
 import phrases from './assets/data.json'
-import Planet from './components/Planet/Planet'
+import Footer from './components/Footer/Footer'
 import backgrounds from './assets/backgrounds.json'
 import { getRandomNumber } from './Utils/getRandomNumber'
 
@@ -21,7 +21,7 @@ function App() {
         <h1>INFOGALAX</h1>
         <Card phrase={phrases[indexPhrases]} />
         <Button changeAll={changeAll} />
-        <Planet phrase={phrases[indexPhrases]}/>
+        <Footer phrase={phrases[indexPhrases]}/>
       </div>
   )
 }

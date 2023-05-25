@@ -1,15 +1,15 @@
 import React from 'react'
 import planet from '../../assets/planet.svg'
-import './Planet.css'
-const Planet = ({phrase}) => {
+import './Footer.css'
+const Footer = ({phrase}) => {
   return (
-    <div className='Planet'>
+    <div className='Footer'>
       <div className='content'>
         <p>Fuente: {phrase.author}</p>
       </div>
-      <img src={planet} alt="" className='background'/>
+      <img src={planet} alt="" className='planet'/>
     </div>
   )
 }
 
-export default Planet
+export default Footer
