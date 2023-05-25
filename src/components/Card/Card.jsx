@@ -3,7 +3,9 @@ import './Card.css'
 const Card = ({phrase}) => {
   return (
     <div className='card'>
-      <p>{phrase.phrase}</p>
+      <div className="container__card">
+        <p>{phrase.phrase}</p>
+      </div>
     </div>
   )
 }

@@ -2,13 +2,15 @@
     max-width:500px;
     border-radius: 60% 60% 0 0;
     overflow:hidden;
-    margin: 0  auto;
+    margin: 0 auto;
   }
-  
-  .content {
+  .content{
+    position: relative;
+  }
+  .author {
     color:black;
     position: absolute;
-    bottom: 0px;
+    bottom: 0.5em;
     right: 0px;
     left: 0px;
   }

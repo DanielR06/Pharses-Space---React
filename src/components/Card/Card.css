@@ -1,4 +1,7 @@
 .card{
+    margin: 0 1em;
+}
+.container__card{
     max-width: 500px;
     margin: 0 auto;
     padding: 1.5em;
@@ -9,7 +12,7 @@
     -ms-border-radius:50px;
     -o-border-radius:50px;
 }
-.card > p{
+.container__card > p{
     font-size:1.7em;
     color: rgb(255, 255, 255);
 }
