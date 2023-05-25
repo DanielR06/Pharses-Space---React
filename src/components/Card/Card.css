@@ -1,29 +1,15 @@
-.card__info{
-    /* Auto layout */
-    margin:auto;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 30px 30px;
-    gap: 10px;
-
-    /* Desing */
-    width: auto;
-    height: auto;
-
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
-    border-radius: 39px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.card{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background: linear-gradient(180deg, rgba(252, 252, 252, 0.185) 0%, rgba(252, 252, 252, 0.185) 100%);
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
 }
-.card__info > p{
-    font-size:30px;
-    color: black;
-    margin:0;
-    width: 450px;
-    height: auto;
+.card > p{
+    font-size:1.7em;
+    color: rgb(255, 255, 255);
 }

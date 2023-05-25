@@ -12,19 +12,16 @@ function App() {
   let styles =[]
   const [indexBackground, setIndexBackground] = useState(getRandomNumber(0, backgrounds.length - 1));
   const changeAll = () => {
-
     const newIndex = getRandomNumber(0, phrases.length - 1);
     setIndexPharse(newIndex);
   };
 
   return (
       <div className="App" style={{}}>
-        
         <h1>INFOGALAX</h1>
         <Card phrase={phrases[indexPhrases]} />
         <Button changeAll={changeAll} />
         <Planet phrase={phrases[indexPhrases]}/>
-      
       </div>
   )
 }
